@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: dlspark
+Version: 1.0.4
+Summary: A simple deep learning framework with NumPy backend.
+Home-page: https://github.com/Erix025/dlspark
+Author: Eric Lin
+Author-email: erix025@outlook.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.12
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy>=2.0.0
+Requires-Dist: matplotlib>=3.4.3
+Provides-Extra: dev
+Requires-Dist: pytest>=6.2.4; extra == "dev"
+
+# DLSpark
+
+DLSpark is a simple deep learning framework with numpy as backend. It is named after Spark because it is viewed as a lightweight version of PyTorch, and we hope it can be a spark for deep learning research.
+
+## Installation
+
+```bash
+pip install dlspark
+```
